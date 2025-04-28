@@ -7,16 +7,20 @@ For multi-threading, you need libpthread installed on your system.
 
 Running the Single-Threaded Version
 
-Clone the repository:git clone https://github.com/amirata051/sudoku-thread.git
+Clone the repository:
+git clone https://github.com/amirata051/sudoku-thread.git
 cd sudoku-thread
 
 
-Build the project using the provided Makefile:make
+Build the project using the provided Makefile:
+make
 
 
-Run the executable (replace <input_file> with a file from the input directory):./sudoku_single <input_file>
+Run the executable (replace <input_file> with a file from the input directory):
+./sudoku_single <input_file>
 
-Example:./sudoku_single input/sample_input.txt
+Example:
+./sudoku_single input/sample_input.txt
 
 
 
@@ -80,4 +84,5 @@ Notes
 The single-threaded version is lightweight and suitable for smaller puzzles.
 The multi-threaded version may improve performance for large or complex Sudoku puzzles by parallelizing validation tasks.
 Ensure your system supports threading for the multi-threaded version.
+
 
